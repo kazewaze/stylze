@@ -1,0 +1,27 @@
+{
+  "name": "stylze",
+  "version": "0.0.15",
+  "description": "A simple styling library for jsx elements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayceeingram/stylze.git"
+  },
+  "keywords": [
+    "reactjs",
+    "javascript",
+    "jsx",
+    "styles",
+    "css",
+    "library"
+  ],
+  "author": "Kaycee Ingram",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kayceeingram/stylze/issues"
+  },
+  "homepage": "https://github.com/kayceeingram/stylze#readme"
+}
