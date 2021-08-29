@@ -58,12 +58,16 @@ export function styling(style) {
         }  
       case ('button-1-md'):
         return {
-          color: '#61DAFB',
-          backgroundColor: '#282C34',
-          fontSize: `${23}px`,
-          border: 'none',
-          borderRadius: `${3}px`,
-          padding: `${7}px`
+          color: '#ffffff',
+          backgroundColor: '#111111',
+          fontSize: `${20}px`,
+          fontWeight: 350,
+          border: `${1}px solid #111111`,
+          borderRadius: `${3.5}px`,
+          paddingTop: `${7}px`,
+          paddingBottom: `${7}px`,
+          paddingLeft: `${14}px`,
+          paddingRight: `${14}px`
         }
       case ('button-1-lg'):
         return {
