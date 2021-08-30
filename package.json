@@ -1,6 +1,6 @@
 {
   "name": "stylze",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "A simple styling library for jsx elements.",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,10 @@
   ],
   "author": "Kaycee Ingram",
   "license": "MIT",
+  "exports": {
+    "import": "./index.js"
+  },
+  "type": "module",
   "bugs": {
     "url": "https://github.com/kayceeingram/stylze/issues"
   },
