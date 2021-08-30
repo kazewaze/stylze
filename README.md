@@ -2,6 +2,8 @@
 
 A simple styling library for jsx elements.
 
+~ **Stylze has not been actively worked on in ages. My apologies... I might pick back up on it shortly. Stay tuned!** ~
+
 ## Installation
 
 ```
@@ -16,20 +18,16 @@ yarn add stylze
 
 ## Example code
 --------------------
-```
+```js
 import React, { Component } from 'react';
-
 import stylze from 'stylze';
 
 class App extends Component {
 
-  // The eventHandler for 'myButton' below.
-
-
+  /* The eventHandler for 'myButton' below. */
   greet()  {
     console.log('Hello Kaycee!');
   }
-
 
   render() {
 
@@ -44,25 +42,28 @@ class App extends Component {
         fontSize: `${33}px`
       });
 
-    // 3 sizes of buttons: button-1-sm, button-1-md, button-1-lg
-    // Pass in your eventHandler through
-    // the 'styles override object' (as shown above on the h1 element).
-    // You have to use the property name 'eventHandler' so stylze can
-    // find the eventHandler. Stylze automatically adds everything else.
-    // When the button is clicked it will
-    // log 'Hello Kaycee!' to the console.
+    /*
+    You simply pass your eventHandler through the 'styles override object',
+    as shown above on the h1 element.
 
-    const myButton = stylze('button-1-lg', 'Click me',
-      { eventHandler: this.greet });
+    You have to use the property name 'eventHandler' so stylze can
+    find the it. Stylze automatically adds everything else. Eazy Peazy...
+
+    Once the button is clicked it will now log 'Hello Kaycee!' to the console.
+
+    There are 3 sizes of buttons: button-1-sm, button-1-md, button-1-lg.
+    */
+
+    const myButton = stylze('button-1-lg', 'Click me', { 
+      eventHandler: this.greet
+    });
 
     return (
       <div className="App">
-
         <div className="SomeClassThatHandlesPositioning">
-          {h1}
-          {myButton}
+          { h1 }
+          { myButton }
         </div>
-
       </div>
     );
   }
