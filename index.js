@@ -49,12 +49,13 @@ export function styling(style) {
         }
       case ('button-1-sm'):
         return {
-          color: '#61DAFB',
-          backgroundColor: '#282C34',
-          fontSize: `${14}px`,
-          border: 'none',
-          borderRadius: `${3}px`,
-          padding: `${7}px`
+          color: '#ffffff',
+          backgroundColor: '#111111',
+          fontSize: `${15}px`,
+          fontWeight: 450,
+          border: `${1}px solid #111111`,
+          borderRadius: `${3.5}px`,
+          padding: `${6}px ${12}px ${6}px ${12}px`
         }  
       case ('button-1-md'):
         return {
@@ -64,19 +65,17 @@ export function styling(style) {
           fontWeight: 350,
           border: `${1}px solid #111111`,
           borderRadius: `${3.5}px`,
-          paddingTop: `${7}px`,
-          paddingBottom: `${7}px`,
-          paddingLeft: `${14}px`,
-          paddingRight: `${14}px`
+          padding: `${7}px ${14}px ${7}px ${14}px`
         }
       case ('button-1-lg'):
         return {
-          color: '#61DAFB',
-          backgroundColor: '#282C34',
-          fontSize: `${33}px`,
-          border: 'none',
-          borderRadius: `${3}px`,
-          padding: `${7}px`
+          color: '#ffffff',
+          backgroundColor: '#111111',
+          fontSize: `${25}px`,
+          fontWeight: 350,
+          border: `${1}px solid #111111`,
+          borderRadius: `${3.5}px`,
+          padding: `${8}px ${16}px ${8}px ${16}px`
         }  
       case ('a-1-sm'):
         return {
